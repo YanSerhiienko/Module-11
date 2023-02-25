@@ -28,6 +28,4 @@ public class Main {
         Stream<String> result = t5.zip(streamA, streamB);
         result.peek(System.out::println).collect(Collectors.toList());
     }
-
-
 }
